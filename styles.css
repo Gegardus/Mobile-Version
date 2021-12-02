@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@100&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Poppins:wght@100&family=Roboto&display=swap');
 
 body {
   background-color: #e5e5e5;
@@ -13,9 +13,8 @@ a {
 }
 
 .mobile {  
-  background-color: #ffffff;
-  height: auto;
-  grid-template-rows: 1fr 2fr 3fr 18fr 12fr;
+  background-color: #fff;
+  height: auto; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,14 +27,17 @@ a {
   width: 327px;
 }
 
-.mobile h1 {
+.head {
+ align-self: center;
+} 
+
+ h1 {
   text-align: center;
 }
 
 .title {
   height: 83px;
-  width: 327px;
-  text-align: center;
+  width: 327px;  
   color: #1c1a19;
   font-family: Crete Round, serif;
   font-size: 40px;
@@ -44,12 +46,11 @@ a {
   line-height: 52px;
   letter-spacing: 0;
   text-align: left;
-  border-radius: 0; 
+  border-radius: 0;
   align-self: center;
-
 }
 
-.title hr {
+.head hr {
   border-bottom: 2px solid slateblue;
   width: 90%;
   height: 0;
@@ -73,7 +74,7 @@ a {
   padding-top: 20px;
 }
 
-.banner h1 {
+.banner h2 {
   height: 36px;
   border-radius: 0;
   font-family: Crete Round, serif;
@@ -106,7 +107,7 @@ a {
   border-left: 20px;
   border-bottom: 10px;
   border-radius: 0;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   font-family: Inter, serif;
   font-size: 17px;
@@ -125,7 +126,7 @@ a {
   justify-content: space-evenly;
   align-items: center;
   padding-left: 0;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -138,86 +139,28 @@ ul {
   list-style-type: none;
 }
 
-.css {
-  border: 1px solid #091e42;
-  height: 33px;
-  width: 49px;
-  border-radius: 0;
-
-  height: 20px;
-  width: 25px;
-  margin-left: 10px;
-  margin-top: 7px;
-  border-radius: 0;
-  font-family: Inter, serif;
-  font-size: 1em;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-align: center;
-  border: none;
+.ul {
+  height: 386px;
+  width: 327px;
+  border-radius: 0;  
 }
 
-.html {
-  border: 1px solid #091e42;
-  height: 33px;
-  width: 56px;
-  left: 61px;
-  top: 0;
-  border-radius: 0;
-
-  height: 20px;
-  width: 32px;
-  margin-left: 10px;
-  margin-top: 7px;
-  border-radius: 0;
-  font-family: Inter, serif;
-  font-size: 1em;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-align: center;
-  border: none;
+.buttons {
+  margin-left: 20px;
+  padding-left: 20px;
 }
 
-.boot {
-  border: 1px solid #091e42;
-  height: 33px;
-  width: 95px;
-  left: 129px;
-  top: 0;
-  border-radius: 0;
-
-  height: 20px;
-  width: 71px;
-  margin-left: 13px;
-  margin-top: 6px;
-  border-radius: 0;
-  font-family: Inter, serif;
-  font-size: 1em;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-align: center;
-  border: none;
+.list {
+  height: 48px;
+  width: 327px;  
+  border-radius: 0px;  
 }
 
-.ruby {
-  border: 1px solid #091e42;
-  height: 33px;
-  width: 61px;
-  left: 236px;
-  top: 0;
-  border-radius: 0;
-
+.ul > * button {
+  background-color: #ffffff3d;
+  color: #fff;
   height: 20px;
-  width: 37px;
-  margin-left: 8px;
-  margin-top: 7px;
-  border-radius: 0;
+  width: 80px;
   font-family: Inter, serif;
   font-size: 15px;
   font-style: normal;
@@ -225,7 +168,19 @@ ul {
   line-height: 20px;
   letter-spacing: 0;
   text-align: center;
-  border: none;
+  border: none;  
+}
+
+.project:active {
+  background-color: #DC143C;
+}
+
+ul:active {
+  background-color: #B22222;
+}
+
+.link:active {
+  background-color: #FF0000;
 }
 
 .bn-buttons .blue:hover {
@@ -260,6 +215,13 @@ ul {
   background: #820c02;
 }
 
+.pr-button,
+.resume {
+  color: white;
+  background-color: #ff6b00;
+  border: 0;
+}
+
 .pr-button:hover {
   background: #1817a2;
 }
@@ -268,19 +230,10 @@ ul {
   background: #0a6e2b;
 }
 
-.pr-button,
-.resume {
-  color: white;
-  background-color: #ff6b00;
-  border: 0;
-}
-
 .works {
-  color: #ffffff;
+  color: #fff;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  display: flex;
-  flex-direction: column;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
 }
 
 .works h1 {
@@ -296,7 +249,7 @@ ul {
 }
 
 .pi {
-  height: 127px;
+  height: 147px;
   width: 295px;
   border-radius: 0;
   font-family: Inter, serif;
@@ -328,86 +281,29 @@ ul {
   display: grid;
   grid-template-rows: 1fr 3fr 35px 35px;
   display: flex;
-  flex-direction: column;
-  /* border: 1px solid rebeccapurple; */
-  height: 386px;
-  width: 327px;
-  left: 0px;
-  top: 0px;
+  flex-direction: column;  
+  height: 410px;
+  width: 327px; 
   border-radius: 0px;
   background: url("assets/images/proj-img.svg") no-repeat;
   background-size: cover;
 }
 
-.ul {
-  height: 386px;
-  width: 327px;
-  border-radius: 0;
-}
-
-.list {
-  height: 48px;
-  width: 327px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-}
-
-.ul .html {
-  height: 22px;
-  width: 70px;
-  border: none;
-}
-
-.ul .boot {
-  height: 22px;
-  width: 70px;
-  border-radius: 0;
-  border: none;
-}
-
-.ul .ruby {
-  height: 22px;
-  width: 70px;
-  border: none;
-}
-
-.ul > * button {
-  background-color: #ffffff3d;
-  color: #ffffff;
-  height: 20px;
-  width: 68px;
-  font-family: Inter, serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-align: center;
-  border: none;
-}
-
 .aboutme {
-  color: #ffffff;
-  /* height: 1400px; */
-  grid-template-rows: 1fr 3fr;
-  /* gap: 10px; */
+  color: #fff; 
+  display: grid;
+  grid-template-rows: 1fr 3fr; 
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
 }
-
-/* .head,.text {
-
-} */
 
 .top {
   height: 640px;
   display: flex;
   flex-direction: column;
   background: url("assets/images/aboutMe-BG.svg") right bottom no-repeat;
-  background-color: #1c1a19;
-  /* border-bottom: 1px solid #fff; */
+  background-color: #1c1a19;  
   align-items: center;
 }
 
@@ -425,8 +321,7 @@ ul {
   width: 327px;
   left: 24px;
   top: 120px;
-  border-radius: nullpx;
-  font-family: Crete Round;
+  font-family: Crete Round, serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
@@ -439,7 +334,7 @@ ul {
   color: #f4f5f7;
   height: 148px;
   width: 327px;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -449,15 +344,9 @@ ul {
 }
 
 .link {
-  /* position: relative;
-  left: 65px;
-  background-color: #ff6b00;
-  height: 48px;
-  width: 161px; */
-
   height: 24px;
   width: 137px;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
@@ -482,7 +371,7 @@ ul {
 .first h2 {
   height: 50px;
   width: 175px; 
-  font-family: InaiMathi;
+  font-family: "InaiMathi", Roboto, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -492,7 +381,7 @@ ul {
 }
 
 .second h2,.third h2 {
-  font-family: Inter;
+  font-family: Inter, serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -502,7 +391,7 @@ ul {
 }
 
 .objects {
-font-family: Inter;
+font-family: Inter, serif;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
@@ -540,8 +429,8 @@ text-align: center;
 }
 
 .lang img {
-  height: 17.99999969194312px;
-  width: 17.99999969194312px;
+  height: 17px;
+  width: 17px;
   left: 12px;
   top: 20.7279052734375px;
   border-radius: 0;
@@ -555,7 +444,7 @@ text-align: center;
   border-radius: 0;
 }
 
-.skill im {
+.skill img {
   height: 18px;
   width: 30px;
   left: 12px;
