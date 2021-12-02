@@ -16,7 +16,7 @@ Mobile-version
 
 ## Getting Started
 
-https://gegardus.github.io/Mobile-version/
+https://gegardus.github.io/Mobile-Version/
 
 ## Author
 

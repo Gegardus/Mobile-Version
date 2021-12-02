@@ -172,15 +172,15 @@ ul {
 }
 
 .project:active {
-  background-color: #DC143C;
+  background-color: #dc143c;
 }
 
 ul:active {
-  background-color: #B22222;
+  background-color: #b22222;
 }
 
 .link:active {
-  background-color: #FF0000;
+  background-color: #ff0000;
 }
 
 .bn-buttons .blue:hover {
@@ -290,9 +290,7 @@ ul:active {
 }
 
 .aboutme {
-  color: #fff; 
-  display: grid;
-  grid-template-rows: 1fr 3fr; 
+  color: #fff;  
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
