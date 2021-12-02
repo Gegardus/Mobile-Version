@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Poppins:wght@100&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Poppins:wght@100&family=Roboto&display=swap");
 
 body {
   background-color: #e5e5e5;
@@ -12,9 +12,9 @@ a {
   text-decoration: none;
 }
 
-.mobile {  
+.mobile {
   background-color: #fff;
-  height: auto; 
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,16 +28,16 @@ a {
 }
 
 .head {
- align-self: center;
-} 
+  align-self: center;
+}
 
- h1 {
+h1 {
   text-align: center;
 }
 
 .title {
   height: 83px;
-  width: 327px;  
+  width: 327px;
   color: #1c1a19;
   font-family: Crete Round, serif;
   font-size: 40px;
@@ -59,7 +59,7 @@ a {
 }
 
 .banner {
-  color: #091e42;  
+  color: #091e42;
   height: 360px;
   display: grid;
   display: flex;
@@ -142,7 +142,7 @@ ul {
 .ul {
   height: 386px;
   width: 327px;
-  border-radius: 0;  
+  border-radius: 0;
 }
 
 .buttons {
@@ -152,8 +152,8 @@ ul {
 
 .list {
   height: 48px;
-  width: 327px;  
-  border-radius: 0px;  
+  width: 327px;
+  border-radius: 0px;
 }
 
 .ul > * button {
@@ -168,7 +168,7 @@ ul {
   line-height: 20px;
   letter-spacing: 0;
   text-align: center;
-  border: none;  
+  border: none;
 }
 
 .project:active {
@@ -233,7 +233,7 @@ ul:active {
 .works {
   color: #fff;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .works h1 {
@@ -281,16 +281,16 @@ ul:active {
   display: grid;
   grid-template-rows: 1fr 3fr 35px 35px;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   height: 410px;
-  width: 327px; 
+  width: 327px;
   border-radius: 0px;
   background: url("assets/images/proj-img.svg") no-repeat;
   background-size: cover;
 }
 
 .aboutme {
-  color: #fff;  
+  color: #fff;
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
@@ -301,11 +301,11 @@ ul:active {
   display: flex;
   flex-direction: column;
   background: url("assets/images/aboutMe-BG.svg") right bottom no-repeat;
-  background-color: #1c1a19;  
+  background-color: #1c1a19;
   align-items: center;
 }
 
- .aboutme hr {
+.aboutme hr {
   background-color: #fff;
   width: 90%;
   height: 0;
@@ -368,7 +368,7 @@ ul:active {
 
 .first h2 {
   height: 50px;
-  width: 175px; 
+  width: 175px;
   font-family: "InaiMathi", Roboto, sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -378,31 +378,32 @@ ul:active {
   text-align: left;
 }
 
-.second h2,.third h2 {
+.second h2,
+.third h2 {
   font-family: Inter, serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
   letter-spacing: 0;
-  text-align: left;  
+  text-align: left;
 }
 
 .objects {
-font-family: Inter, serif;
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: 43px;
-letter-spacing: 0;
-text-align: center;
+  font-family: Inter, serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 .rubric {
   display: inline-flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-self: center;  
+  align-self: center;
   width: 233px;
   height: auto;
 }
