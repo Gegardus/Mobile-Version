@@ -153,7 +153,6 @@ ul {
 .list {
   height: 48px;
   width: 327px;
-  border-radius: 0px;
 }
 
 .ul > * button {
@@ -171,63 +170,11 @@ ul {
   border: none;
 }
 
-.project:active {
-  background-color: #dc143c;
-}
-
-ul:active {
-  background-color: #b22222;
-}
-
-.link:active {
-  background-color: #ff0000;
-}
-
-.bn-buttons .blue:hover {
-  background: lightblue;
-}
-
-.bn-buttons .orange:hover {
-  background: lightsalmon;
-}
-
-.bn-buttons .pink:hover {
-  background: lightpink;
-}
-
-.bn-buttons .red:hover {
-  background: lightcoral;
-}
-
-.css:hover {
-  background: #264de4;
-}
-
-.html:hover {
-  background: #9f4511;
-}
-
-.boot:hover {
-  background: #563d7c;
-}
-
-.ruby:hover {
-  background: #820c02;
-}
-
 .pr-button,
 .resume {
   color: white;
   background-color: #ff6b00;
   border: 0;
-}
-
-.pr-button:hover {
-  background: #1817a2;
-}
-
-.resume:hover {
-  background: #0a6e2b;
 }
 
 .works {
@@ -246,6 +193,7 @@ ul:active {
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
+  margin-left: 20px;
 }
 
 .pi {
@@ -259,6 +207,7 @@ ul:active {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
+  margin-left: 20px;
 }
 
 .works .buttons {
@@ -278,13 +227,10 @@ ul:active {
 .work4,
 .work5,
 .work6 {
-  display: grid;
-  grid-template-rows: 1fr 3fr 35px 35px;
   display: flex;
   flex-direction: column;
   height: 410px;
   width: 327px;
-  border-radius: 0px;
   background: url("assets/images/proj-img.svg") no-repeat;
   background-size: cover;
 }
@@ -450,4 +396,56 @@ ul:active {
   top: 11px;
   border-right: 20px;
   border-radius: 50px;
+}
+
+.project:active {
+  background-color: #dc143c;
+}
+
+ul:active {
+  background-color: #b22222;
+}
+
+.link:active {
+  background-color: #f00;
+}
+
+.bn-buttons .blue:hover {
+  background: lightblue;
+}
+
+.bn-buttons .orange:hover {
+  background: lightsalmon;
+}
+
+.bn-buttons .pink:hover {
+  background: lightpink;
+}
+
+.bn-buttons .red:hover {
+  background: lightcoral;
+}
+
+.css:hover {
+  background: #264de4;
+}
+
+.html:hover {
+  background: #9f4511;
+}
+
+.boot:hover {
+  background: #563d7c;
+}
+
+.ruby:hover {
+  background: #820c02;
+}
+
+.pr-button:hover {
+  background: #1817a2;
+}
+
+.resume:hover {
+  background: #0a6e2b;
 }
