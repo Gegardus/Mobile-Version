@@ -1,0 +1,548 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Poppins:wght@100&family=Roboto&display=swap");
+
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 327px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mobile {
+  background-color: #fff;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image,
+.banner,
+.works {
+  align-self: center;
+  width: 327px;
+}
+
+.head {
+  height: auto;
+  align-self: center;
+  padding-top: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.title {
+  height: 50px;
+  width: 327px;
+  color: #1c1a19;
+  font-family: Crete Round, serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+  border-radius: 0;
+  align-self: center;
+  margin-left: 15px;
+}
+
+.head hr {
+  border-bottom: 2px solid slateblue;
+  width: 90%;
+  height: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.banner {
+  color: #091e42;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 237px;
+  border-radius: 0;
+  background-image: url("assets/images/ImgPlaceholder.png");
+  background-repeat: no-repeat;
+  background-size: 98% 93%;
+  padding-top: 20px;
+  margin-left: 1%;
+}
+
+.banner h2 {
+  height: 36px;
+  font-family: Crete Round, serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.banner p {
+  height: 147px;
+  font-family: Inter, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.project {
+  background-color: #ff6b00;
+  height: 40px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Inter, serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 0;
+  border: none;
+}
+
+.see-pr {
+  margin-left: 20px;
+  height: 40px;
+  width: 127px;
+  margin-bottom: 20px;
+}
+
+.bn-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 0;
+  font-family: Inter, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.blue {
+  width: 40px;
+  height: 35px;
+}
+
+.orange {
+  width: 50px;
+  height: 35px;
+}
+
+.pink {
+  width: 80px;
+  height: 35px;
+}
+
+.red {
+  width: 50px;
+  height: 35px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-left: 0;
+  font-family: Inter, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.html,
+.boot,
+.ruby {
+  background-color: #ffffff3d;
+  color: #fff;
+  border: none;
+}
+
+.html {
+  height: 50px;
+  width: 60px;
+}
+
+.boot {
+  height: 50px;
+  width: 80px;
+}
+
+.ruby {
+  height: 50px;
+  width: 60px;
+}
+
+.list {
+  height: 48px;
+  width: 327px;
+}
+
+.bn-button,
+.pr-button {
+  height: 48px;
+  width: 127px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+}
+
+.resume {
+  height: 60px;
+  width: 157px;
+  margin-top: 5px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+}
+
+.works {
+  height: 3000px;
+  color: #fff;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.hash {
+  height: 81px;
+  width: 295px;
+  font-family: Crete Round, serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.pi {
+  height: 147px;
+  width: 295px;
+  border-radius: 0;
+  font-family: Inter, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.works .buttons {
+  width: auto;
+  height: 55px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 0;
+}
+
+.work1,
+.work2,
+.work3,
+.work4,
+.work5,
+.work6 {
+  display: flex;
+  flex-direction: column;
+  height: 440px;
+  width: 327px;
+  background: url("assets/images/proj-img.svg") no-repeat;
+  background-size: cover;
+}
+
+.aboutme {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+  justify-content: center;
+}
+
+.top {
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  background: url("assets/images/aboutMe-BG.svg") right bottom no-repeat;
+  background-color: #1c1a19;
+  align-items: center;
+}
+
+.aboutme hr {
+  background-color: #fff;
+  width: 90%;
+  height: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.top h2 {
+  color: #ff6b00;
+  height: 79px;
+  width: 327px;
+  left: 24px;
+  top: 120px;
+  font-family: Crete Round, serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.text {
+  color: #f4f5f7;
+  height: 148px;
+  width: 327px;
+  font-family: Inter, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.link {
+  align-self: flex-start;
+  margin-left: 20px;
+  height: 70px;
+  width: 165px;
+  font-family: Inter, serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border: none;
+}
+
+.content {
+  margin-top: 0;
+  height: 100%;
+}
+
+.first,
+.second,
+.third {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.first {
+  height: 290px;
+}
+
+.second,
+.third {
+  height: 340px;
+}
+
+.first h2 {
+  height: 50px;
+  width: 175px;
+  font-family: "InaiMathi", Roboto, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.second h2,
+.third h2 {
+  font-family: Inter, serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.objects {
+  font-family: Inter, serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.rubric {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: center;
+  width: 233px;
+  height: auto;
+}
+
+.objects .rubric {
+  margin: 0 auto;
+}
+
+.lang h2 {
+  margin-left: 15px;
+}
+
+.frame h2 {
+  margin-right: 15px;
+}
+
+.skill h2 {
+  margin-right: 60px;
+}
+
+.rubric img {
+  align-self: center;
+}
+
+.lang,
+.frame,
+.skill {
+  display: flex;
+  flex-direction: row;
+}
+
+.lang img {
+  height: 17px;
+  width: 17px;
+  left: 12px;
+  top: 20.7279052734375px;
+  border-radius: 0;
+}
+
+.frame img {
+  height: 18px;
+  width: 18px;
+  left: 12px;
+  top: 11px;
+  border-radius: 0;
+}
+
+.skill img {
+  height: 18px;
+  width: 30px;
+  left: 12px;
+  top: 11px;
+  border-right: 20px;
+  border-radius: 50px;
+}
+
+.bn-button:hover {
+  background: #1817a2;
+}
+
+.bn-buttons .blue:hover {
+  background: lightblue;
+}
+
+.bn-buttons .orange:hover {
+  background: lightsalmon;
+}
+
+.bn-buttons .pink:hover {
+  background-color: #c154c1;
+}
+
+.bn-buttons .red:hover {
+  background: lightcoral;
+}
+
+.css:hover {
+  background: #264de4;
+}
+
+.html:hover {
+  background: #9f4511;
+}
+
+.boot:hover {
+  background: #563d7c;
+}
+
+.ruby:hover {
+  background: #820c02;
+}
+
+.pr-button:hover {
+  background: #1817a2;
+}
+
+.resume:hover {
+  background: #0a6e2b;
+}
+
+/* .project:active {
+  background-color: #dc143c;
+} */
+
+.link .resume:active {
+  background-color: #f00;
+}
+
+.bn-list:active {
+  background-color: #9b111e;
+}
+
+.buttons:active {
+  background-color: #ff7f50;
+}
+
+.project .bn-button:active {
+  background-color: #b22222;
+}
