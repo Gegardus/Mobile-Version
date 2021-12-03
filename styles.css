@@ -63,7 +63,7 @@ h1 {
 
 .banner {
   color: #091e42;
-  height: 360px;
+  height: 400px;
   display: flex;
   flex-direction: column;
 }
@@ -102,10 +102,6 @@ h1 {
   margin-left: 20px;
 }
 
-.pr-button {
-  border: none;
-}
-
 .project {
   background-color: #ff6b00;
   height: 34px;
@@ -126,12 +122,13 @@ h1 {
 }
 
 .see-pr {
-  margin-left: 25px;
+  margin-left: 20px;
+  height: 90px;
+  width: 150px;
+  background-color: #fff;
 }
 
 .bn-buttons {
-  width: auto;
-  height: 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -145,19 +142,71 @@ h1 {
   text-align: left;
 }
 
+.blue {
+  width: 40px;
+  height: 35px;
+}
+
+.orange {
+  width: 50px;
+  height: 35px;
+}
+
+.pink {
+  width: 80px;
+  height: 35px;
+}
+
+.red {
+  width: 50px;
+  height: 35px;
+}
+
 ul {
   list-style-type: none;
 }
 
-.ul {
-  height: 386px;
-  width: 327px;
-  border-radius: 0;
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-left: 0;
+  font-family: Inter, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0;
+  margin-left: 10px;
+  border: none;
 }
 
-.buttons {
-  margin-left: 20px;
-  padding-left: 20px;
+.html,
+.boot,
+.ruby {
+  background-color: #ffffff3d;
+  color: #fff;
+}
+
+.html,
+.boot,
+.ruby {
+  border: none;
+}
+
+.html {
+  height: 50px;
+  width: 60px;
+}
+
+.boot {
+  height: 50px;
+  width: 80px;
+}
+
+.ruby {
+  height: 50px;
+  width: 60px;
 }
 
 .list {
@@ -165,36 +214,49 @@ ul {
   width: 327px;
 }
 
-.ul > * button {
-  background-color: #ffffff3d;
-  color: #fff;
-  height: 30px;
-  width: 80px;
-  font-family: Inter, serif;
-  font-size: 15px;
+.bn-button {
+  margin-left: 0;
+  margin-top: 7px;
+}
+
+.bn-button,
+.pr-button {
+  height: 40px;
+  width: 127px;
+  font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-align: center;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background-color: #ff6b00;
+  height: 48px;
   border: none;
 }
 
-.pr-button,
 .resume {
-  color: white;
+  height: 60px;
+  width: 147px;
+  margin-top: 5px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
   background-color: #ff6b00;
-  margin-top: 8px;
+  border: none;
 }
 
 .works {
-  /* height: 3200px; */
+  height: 3000px;
   color: #fff;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
-  margin-bottom: 100px;
-  margin-top: 10px;
+  margin-bottom: 80px;
 }
 
 .hash {
@@ -232,7 +294,7 @@ ul {
   align-items: center;
   padding-right: 50px;
   padding-left: 0;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .work1,
@@ -274,7 +336,7 @@ ul {
   margin-right: 5%;
 }
 
-.top h1 {
+.top h2 {
   color: #ff6b00;
   height: 79px;
   width: 327px;
@@ -307,8 +369,8 @@ ul {
 .link {
   align-self: flex-start;
   margin-left: 20px;
-  height: 50px;
-  width: 137px;
+  height: 70px;
+  width: 160px;
   font-family: Inter, serif;
   font-size: 17px;
   font-style: normal;
@@ -316,12 +378,7 @@ ul {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
-}
-
-.resume {
-  height: 40px;
-  width: 127px;
-  border: 0;
+  border: none;
 }
 
 .content {
@@ -440,26 +497,6 @@ ul {
   border-radius: 50px;
 }
 
-.project:active {
-  background-color: #dc143c;
-}
-
-.ul:active {
-  background-color: #b22222;
-}
-
-.link:active {
-  background-color: #f00;
-}
-
-.list:active {
-  background-color: #9b111e;
-}
-
-.bn-list:active {
-  background-color: #9b111e;
-}
-
 .bn-buttons .blue:hover {
   background: lightblue;
 }
@@ -498,4 +535,24 @@ ul {
 
 .resume:hover {
   background: #0a6e2b;
+}
+
+.project:active {
+  background-color: #dc143c;
+}
+
+.link:active {
+  background-color: #f00;
+}
+
+.bn-list:active {
+  background-color: #9b111e;
+}
+
+.buttons:active {
+  background-color: #ff7f50;
+}
+
+.see-pr:active {
+  background-color: #b22222;
 }
