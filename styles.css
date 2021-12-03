@@ -186,11 +186,6 @@ ul {
 .ruby {
   background-color: #ffffff3d;
   color: #fff;
-}
-
-.html,
-.boot,
-.ruby {
   border: none;
 }
 
@@ -221,7 +216,7 @@ ul {
 
 .bn-button,
 .pr-button {
-  height: 40px;
+  height: 48px;
   width: 127px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -231,7 +226,6 @@ ul {
   letter-spacing: 0.03em;
   color: #fff;
   background-color: #ff6b00;
-  height: 48px;
   border: none;
 }
 
@@ -294,7 +288,6 @@ ul {
   align-items: center;
   padding-right: 50px;
   padding-left: 0;
-  /* gap: 10px; */
 }
 
 .work1,
