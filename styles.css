@@ -104,7 +104,7 @@ h1 {
 
 .project {
   background-color: #ff6b00;
-  height: 40px; 
+  height: 40px;
   color: #fff;
   text-decoration: none;
   font-family: Inter, serif;
@@ -112,21 +112,17 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0.03em; 
+  letter-spacing: 0.03em;
   text-align: center;
   margin-top: 0;
   border: none;
 }
 
 .see-pr {
-  margin-left: 20px; 
+  margin-left: 20px;
   height: 40px;
-  width: 127px; 
+  width: 127px;
   margin-bottom: 20px;
-}
-
-project .bn-button {
-  margin-bottom: 10px;
 }
 
 .bn-buttons {
@@ -500,7 +496,7 @@ ul {
 }
 
 .bn-buttons .pink:hover {
- background-color: #c154c1;
+  background-color: #c154c1;
 }
 
 .bn-buttons .red:hover {
