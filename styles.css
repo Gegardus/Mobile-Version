@@ -37,10 +37,6 @@ h1 {
   text-align: center;
 }
 
-* {
-  border: 1px solid black;
-}
-
 .title {
   height: 50px;
   width: 327px;
@@ -450,14 +446,9 @@ ul {
 
 .ul:active {
   background-color: #b22222;
-}.rubric {
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-self: center;
-  width: 233px;
-  height: auto;
 }
+
+.link:active {
   background-color: #f00;
 }
 
