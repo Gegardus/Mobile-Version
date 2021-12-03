@@ -28,15 +28,21 @@ a {
 }
 
 .head {
+  height: auto;
   align-self: center;
+  padding-top: 40px;
 }
 
 h1 {
   text-align: center;
 }
 
+* {
+  border: 1px solid black;
+}
+
 .title {
-  height: 83px;
+  height: 50px;
   width: 327px;
   color: #1c1a19;
   font-family: Crete Round, serif;
@@ -61,8 +67,7 @@ h1 {
 
 .banner {
   color: #091e42;
-  height: 380px;
-  display: grid;
+  height: 360px;
   display: flex;
   flex-direction: column;
 }
@@ -130,7 +135,7 @@ h1 {
 
 .bn-buttons {
   width: auto;
-  height: 35px;
+  height: 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -378,10 +383,6 @@ ul {
   text-align: center;
 }
 
-.objects .rubric {
-  margin: 0 auto;
-}
-
 .rubric {
   display: inline-flex;
   flex-direction: row;
@@ -389,6 +390,10 @@ ul {
   align-self: center;
   width: 233px;
   height: auto;
+}
+
+.objects .rubric {
+  margin: 0 auto;
 }
 
 .lang h2 {
@@ -445,13 +450,22 @@ ul {
 
 .ul:active {
   background-color: #b22222;
+}.rubric {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-self: center;
+  width: 233px;
+  height: auto;
 }
-
-.link:active {
   background-color: #f00;
 }
 
 .list:active {
+  background-color: #9b111e;
+}
+
+.bn-list:active {
   background-color: #9b111e;
 }
 
