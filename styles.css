@@ -487,24 +487,20 @@ ul {
   background: #1817a2;
 }
 
-.bn-buttons .blue:hover {
+.blue:hover {
   background: lightblue;
 }
 
-.bn-buttons .orange:hover {
+.orange:hover {
   background: lightsalmon;
 }
 
-.bn-buttons .pink:hover {
+.pink:hover {
   background-color: #c154c1;
 }
 
-.bn-buttons .red:hover {
+.red:hover {
   background: lightcoral;
-}
-
-.css:hover {
-  background: #264de4;
 }
 
 .html:hover {
@@ -527,22 +523,46 @@ ul {
   background: #0a6e2b;
 }
 
-/* .project:active {
+
+
+
+
+.bn-button:active {
+  background: #b22222;
+}
+
+.blue:active {
+  background: #dc143c;
+}
+
+.orange:active {
+  background: #dc143c;
+}
+
+.pink:active {
   background-color: #dc143c;
-} */
-
-.link .resume:active {
-  background-color: #f00;
 }
 
-.bn-list:active {
-  background-color: #9b111e;
+.red:active {
+  background: #dc143c;
 }
 
-.buttons:active {
-  background-color: #ff7f50;
+.html:active {
+  background: #ff7f50;
 }
 
-.project .bn-button:active {
-  background-color: #b22222;
+.boot:active {
+  background: #ff7f50;
+}
+
+.ruby:active {
+  background: #ff7f50;
+}
+
+.pr-button:active {
+  background: #b22222;
+}
+
+.resume:active {
+  background: #f00;
 }
