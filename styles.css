@@ -163,22 +163,6 @@ ul {
   list-style-type: none;
 }
 
-.buttons {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  padding-left: 0;
-  font-family: Inter, serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 18px;
-  letter-spacing: 0;
-  margin-left: 10px;
-  border: none;
-  cursor: pointer;
-}
-
 .html,
 .boot,
 .ruby {
@@ -273,7 +257,7 @@ ul {
   margin-left: 20px;
 }
 
-.works .buttons {
+.buttons {
   width: auto;
   height: 55px;
   display: flex;
@@ -281,7 +265,17 @@ ul {
   align-items: center;
   padding-right: 50px;
   padding-left: 0;
+  font-family: Inter, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
 }
+
 
 .work1,
 .work2,
